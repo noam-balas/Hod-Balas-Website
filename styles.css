@@ -39,7 +39,7 @@ head {
   bottom: 0;
   color: black;
   text-align: center;
-  position: relative;
+  position: static;
   font-size: 80%;
 }
 
