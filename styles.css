@@ -32,10 +32,11 @@ head {
 }
 
 .image1 {
-  max-height: 100vw;
-  max-width: 100vw;
+  /*height: auto;
   bottom: 0;
-  padding-bottom: 0;
+  padding-bottom: 0;*/
+  width: 100vw;
+  text-align: center;
 }
 
 .copyright {
