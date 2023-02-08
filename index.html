@@ -48,7 +48,7 @@
     body_class.fadeIn(1500);
 
     /* make the song table appear */
-    $(document).ready(function() {
+    $(window).ready(function() {
       $(window).scroll(function() {
         $('.songs_table').each(function() {
           var bottom_of_element = $('.songs_table').offset().top + $('.songs_table').outerHeight();
