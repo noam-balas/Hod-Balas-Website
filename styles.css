@@ -35,7 +35,9 @@ head {
   /*height: auto;
   bottom: 0;
   padding-bottom: 0;*/
+  max-height: 100vw;
   width: 100vw;
+  height: auto;
   text-align: center;
 }
 
