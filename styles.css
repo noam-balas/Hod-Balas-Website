@@ -243,14 +243,13 @@ nav .navbar-nav li a:hover {
     }
 }
 
-
-/*apply below 900px - mobile*/
-@media only screen and (max-height: 900px) {
+/*apply below 500px - mobile*/
+@media only screen and (max-width: 500px) {
     .logo {
       position: absolute;
       height: auto;
-      width: 60%;
-      top: 5em;
+      width: 70%;
+      top: 7em;
       left: 22%;
     }
  .brand1 {
@@ -274,13 +273,13 @@ nav .navbar-nav li a:hover {
   }
 }
 
-/*apply below 500px - mobile*/
-@media only screen and (max-width: 500px) {
+/*apply below 900px - mobile*/
+@media only screen and (max-height: 900px) {
     .logo {
       position: absolute;
       height: auto;
-      width: 70%;
-      top: 7em;
+      width: 60%;
+      top: 5em;
       left: 22%;
     }
  .brand1 {
