@@ -29,7 +29,7 @@ body {
   position: absolute;
   height: auto;
   width: 40%;
-  top: 35%;
+  top: 32%;
   left: 6%;
 }
 
@@ -49,7 +49,7 @@ body {
      height: auto;
      width: 35%;
      top: 30%;
-     left: 5%;
+     left: 6%;
      visibility: visible;
    }
 }
