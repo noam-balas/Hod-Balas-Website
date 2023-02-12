@@ -56,7 +56,7 @@ body {
 
 
 /* set color for nav-items and set the size of brand */
-nav .navbar-nav li a{
+nav .navbar-nav .nav-item .nav-link{
   font-size: 140%;
   color: white !important;
   /*transition-property: color;*/
@@ -72,20 +72,20 @@ nav .navbar-nav li a{
   transition-duration: 0.5s;
 }
 
-nav .navbar-nav li a:hover {
+nav .navbar-nav .nav-item .nav-link:hover {
   color: #EADDCA !important;
   border-color: #EADDCA;
 }
 
 /* apply below 1024px - tablet and mobile */
 @media only screen and (max-width: 1024px) {
-    nav .navbar-nav li a {
+    nav .navbar-nav .nav-item .nav-link {
       text-align: center;
       border: none;
       font-size: 100%;
     }
 
-    nav .navbar-nav li a:hover {
+    nav .navbar-nav .nav-item .nav-link:hover {
       color: #D2B48C !important;
       border: none;
     }
@@ -111,7 +111,7 @@ nav .navbar-nav li a:hover {
   transition-duration: 0.2s;
   transition-delay: 0;
   transition-timing-function: linear;
-  font-size: 130%;
+  font-size: 170%;
   color: #D2B48C;
 }
 
@@ -258,7 +258,7 @@ nav .navbar-nav li a:hover {
   .brand2 {
     display: grid;
   }
-  nav .navbar-nav li a {
+  nav .navbar-nav .nav-item .nav-link {
     text-align: center;
     border: none;
     font-size: 100%;
@@ -292,10 +292,18 @@ nav .navbar-nav li a:hover {
   .brand2 {
     display: grid;
   }
-  nav .navbar-nav li a {
-    text-align: center;
-    border: none;
-    font-size: 100%;
+
+  nav .navbar-nav .dropdown-menu .dropdown-item {
+    color: white;
+  }
+
+  nav .navbar-nav .dropdown-menu .dropdown-divider {
+    background: #EADDCA;
+  }
+
+  nav .navbar-nav .dropdown-menu .dropdown-item:hover {
+    background-color: #EADDCA;
+    color: black;
   }
 
 .text-item {
