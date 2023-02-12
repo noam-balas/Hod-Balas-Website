@@ -244,8 +244,8 @@ nav .navbar-nav li a:hover {
 }
 
 
-/*apply below 400px - mobile*/
-@media only screen and (max-height: 400px) {
+/*apply below 500px - mobile*/
+@media only screen and (max-height: 500px) {
     .logo {
       position: absolute;
       height: auto;
