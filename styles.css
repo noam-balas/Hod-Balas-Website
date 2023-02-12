@@ -164,7 +164,7 @@ nav .navbar-nav .nav-item .nav-link:hover {
 
 .navbar-toggler .bottom-bar {
   transform: rotate(-45deg);
-  transform-origin: 0 -5%;
+  transform-origin: 2% -5%;
 }
 
 /* State when the navbar is collapsed */
