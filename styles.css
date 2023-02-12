@@ -27,18 +27,6 @@ body {
    }
 }
 
- /*apply below 768px - mobile
-@media only screen and (max-width: 768px) {
-    body {
-      height: 100vh;
-      width: 100vw;
-      background-size: cover;
-      background-position: right;
-      background-repeat: no-repeat;
-      overflow: hidden;
-    }
-}*/
-
 .logo {
   position: absolute;
   height: auto;
@@ -53,41 +41,6 @@ body {
   height: 100vh;
   width: 100vw;
 }
-/*
-.bg {
-  position: absolute;
-  height: 100vh;
-  width: auto;
-  right: 0;
-}
-*/
-/*apply below 768px - mobile
-@media only screen and (max-width: 768px) {
-   .bg {
-     position: absolute;
-     height: 100vh;
-     width: auto;
-     right: 0;
-   }
-}*/
-
-/*apply below 1024px - tablet
-@media only screen and (max-width: 1024px) {
-   .logo {
-     visibility: hidden;
-   }
-
-   .logo2 {
-     position: absolute;
-     height: auto;
-     width: 35%;
-     top: 30%;
-     left: 6%;
-     visibility: visible;
-   }
-}
-*/
-
 
 .brand2 {
   display: none;
@@ -101,15 +54,14 @@ body {
      top: 5em;
      left: 22%;
    }
-}
-
+  
    .brand1 {
      display: none;
    }
     .brand2 {
       display: grid;
     }
-
+}
 
 /*apply below 768x - mobile2
 @media only screen and (max-width: 768px) {
@@ -436,37 +388,6 @@ navbar-toggler-collaps .top-bar:focus {
   width: 50vw
 }*/
 
-/*
-.image1-2 {
-  top: 0;
-  z-index: -2;
-  position: absolute;
-  height: 100vh;
-  width: 100vw;
-}
-*/
-
-/* apply below 1000px
-@media only screen and (max-height: 1000px) {
-    .image1-1 {
-      height: 200vh;
-      width: 100vw;
-    }
-  } */
-
-  /* apply above 1000px
-  @media only screen and (min-height: 1000px) {
-      .image1-2 {
-        visibility: hidden;
-      }
-    } */
-
-  /* Three image containers (use 25% for four, and 50% for two, etc) */
-  /*.column {
-    float: left;
-    width: 50%;
-  }*/
-
   /* Clear floats after image containers */
 
 
@@ -484,26 +405,6 @@ navbar-toggler-collaps .top-bar:focus {
   display: none;
 }
 
-/*
-.button1, .button2, .button3 {
-  border-style: ridge;
-  border-width: medium;
-  border-color: #9F8170;
-  border-radius: 50vw;
-  background-color: #EFDECD;
-  padding: 0.3vw;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  margin-top: 1vw;
-  margin-right: 0.5vw;
-  opacity: 0.7;
-}
-
-.button1:hover, .button2:hover, .button3:hover {
-  opacity: 1;
-}
-*/
 /************************************************************/
 /* copyright - the footer of the page */
 .copyright {
