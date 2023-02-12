@@ -11,7 +11,7 @@ body {
     body {
       height: 100vh;
       width: 100vw;
-      background-image: url("/home/noam/Website Hod/Photos/Photos/bgbg-ph.jpg");
+      background-image: url("bgbg-ph.jpg");
       background-size: cover;
       background-repeat: no-repeat;
     }
