@@ -9,8 +9,8 @@ body {
  /*apply below 1000px*/
 @media only screen and (max-width: 1000px) {
     body {
-      height: 100vh;
-      width: 100vw;
+      height: auto;
+      width: auto;
       background-image: url("bgbg-ph.jpg");
       background-size: cover;
       background-repeat: no-repeat;
