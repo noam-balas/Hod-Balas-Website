@@ -104,6 +104,13 @@ nav .navbar-nav .nav-item .nav-link:hover {
   .navbar:hover {
     opacity: 0.9;
   }
+
+  .logo {
+    height: auto;
+    width: 20%;
+    left: 5%;
+    top: 5em;
+  }
 }
 
 
@@ -225,9 +232,9 @@ nav .navbar-nav .nav-item .nav-link:hover {
    body {
      height: 100vh;
      width: 100vw;
-     background-image: url("bg-2phone.jpg");
+     background-image: url("bg-phone4.jpg");
      background-size: cover;
-     background-position: center;
+     background-position: left;
      background-repeat: no-repeat;
      overflow: hidden;
    }
@@ -236,8 +243,8 @@ nav .navbar-nav .nav-item .nav-link:hover {
      position: absolute;
      height: auto;
      width: 45%;
-     top: 5em;
-     left: 28%;
+     top: 20em;
+     left: 2%;
    }
 
    .brand1 {
@@ -253,9 +260,9 @@ nav .navbar-nav .nav-item .nav-link:hover {
     .logo {
       position: absolute;
       height: auto;
-      width: 70%;
-      top: 6em;
-      left: 22%;
+      width: 45%;
+      top: 18em;
+      left: 3%;
     }
  .brand1 {
    display: none;
@@ -269,7 +276,7 @@ nav .navbar-nav .nav-item .nav-link:hover {
     border: none;
     font-size: 100%;
   }
-
+  /*
   .logo {
     position: absolute;
     height: auto;
@@ -277,6 +284,7 @@ nav .navbar-nav .nav-item .nav-link:hover {
     top: 8em;
     left: 28%;
   }
+  */
 }
 
 .dropdown {
@@ -288,9 +296,9 @@ nav .navbar-nav .nav-item .nav-link:hover {
     .logo {
       position: absolute;
       height: auto;
-      width: 60%;
-      top: 5em;
-      left: 22%;
+      width: 35%;
+      top: 9em;
+      left: 1%;
     }
  .brand1 {
    display: none;
@@ -321,15 +329,20 @@ drop down
   display: grid;
 }
 */
-nav .navbar-nav .nav-item .nav-link {
-  font-size: 120%;
+  nav .navbar-nav .nav-item .nav-link {
+    font-size: 120%;
+  }
 }
 
+@media only screen and (max-height: 350px) {
   .logo {
-    position: absolute;
-    height: auto;
-    width: 30%;
     top: 5em;
-    left: 5%;
+  }
+}
+
+@media only screen and (max-height: 200px) {
+  .logo {
+    top: 3%;
+    left: 0;
   }
 }
