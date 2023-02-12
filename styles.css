@@ -43,10 +43,11 @@ body {
   z-index: 2;
   opacity: 0.8;
   height: auto;
+  background-color: black;
 }
 
 .navbar:hover {
-  opacity: 1;
+  opacity: 0.9;
 }
 
 .space {
@@ -59,6 +60,7 @@ body {
 nav .navbar-nav .nav-item .nav-link{
   font-size: 140%;
   color: white !important;
+
   /*transition-property: color;*/
 
   border-style: groove;
@@ -70,6 +72,8 @@ nav .navbar-nav .nav-item .nav-link{
   border-width: medium;
   border-color: transparent;
   transition-duration: 0.5s;
+  font-family: 'Arimo', sans-serif;
+  font-family: 'Xanh Mono', monospace;
 }
 
 nav .navbar-nav .nav-item .nav-link:hover {
@@ -82,7 +86,7 @@ nav .navbar-nav .nav-item .nav-link:hover {
     nav .navbar-nav .nav-item .nav-link {
       text-align: center;
       border: none;
-      font-size: 100%;
+      font-size: 150%;
     }
 
     nav .navbar-nav .nav-item .nav-link:hover {
@@ -92,7 +96,7 @@ nav .navbar-nav .nav-item .nav-link:hover {
 
   .navbar {
     text-align: center;
-    opacity: 0.6;
+    opacity: 0.9;
     height: auto;
   }
 
@@ -258,6 +262,7 @@ nav .navbar-nav .nav-item .nav-link:hover {
   .brand2 {
     display: grid;
   }
+
   nav .navbar-nav .nav-item .nav-link {
     text-align: center;
     border: none;
@@ -278,7 +283,7 @@ nav .navbar-nav .nav-item .nav-link:hover {
 }
 
 /*apply below 500px - mobile*/
-@media only screen and (max-height: 600px) {
+@media only screen and (max-height: 660px) {
     .logo {
       position: absolute;
       height: auto;
@@ -292,7 +297,7 @@ nav .navbar-nav .nav-item .nav-link:hover {
   .brand2 {
     display: grid;
   }
-
+/*
   nav .navbar-nav .dropdown-menu .dropdown-item {
     color: white;
   }
@@ -312,6 +317,10 @@ nav .navbar-nav .nav-item .nav-link:hover {
 
 .dropdown {
   display: grid;
+}
+*/
+nav .navbar-nav .nav-item .nav-link {
+  font-size: 120%;
 }
 
   .logo {
