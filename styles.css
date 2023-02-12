@@ -47,11 +47,12 @@ body {
   left: 6%;
 }
 
+/*
 .logo2 {
   position: absolute;
   visibility: hidden;
 }
-
+*/
 .container2 {
   position: relative;
   background-color: #a6a7a9;
@@ -76,12 +77,16 @@ body {
    }
 }*/
 
-/*apply below 1024px - tablet
+/*apply below 1024px - tablet and mobile */
 @media only screen and (max-width: 1024px) {
    .logo {
-     visibility: hidden;
+     position: absolute;
+     height: auto;
+     width: 60%;
+     top: 5em;
+     left: 22%;
    }
-
+}
    .logo2 {
      position: absolute;
      height: auto;
@@ -92,6 +97,7 @@ body {
    }
 }
 */
+
 
 
 .brand2 {
