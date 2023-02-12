@@ -13,8 +13,8 @@ body {
   overflow: hidden;
 }
 
- /*apply below 1000px*/
-@media only screen and (max-width: 1000px) {
+ /*apply below 768px - mobile*/
+@media only screen and (max-width: 768px) {
     body {
       height: 100vh;
       width: 100vw;
@@ -38,8 +38,8 @@ body {
   visibility: hidden;
 }
 
-/*apply below 1000px*/
-@media only screen and (max-width: 1000px) {
+/*apply below 1024px - tablet
+@media only screen and (max-width: 1024px) {
    .logo {
      visibility: hidden;
    }
@@ -48,6 +48,22 @@ body {
      position: absolute;
      height: auto;
      width: 35%;
+     top: 30%;
+     left: 6%;
+     visibility: visible;
+   }
+}
+
+/*apply below 768x - mobile*/
+@media only screen and (max-width: 768px) {
+   .logo {
+     visibility: hidden;
+   }
+
+   .logo2 {
+     position: absolute;
+     height: auto;
+     width: 37%;
      top: 30%;
      left: 6%;
      visibility: visible;
@@ -132,8 +148,8 @@ nav .navbar-nav li a:hover {
   border-color: #EADDCA;
 }
 
-/* apply below 1000px */
-@media only screen and (max-width: 1000px) {
+/* apply below 1024px - tablet and mobile */
+@media only screen and (max-width: 1024px) {
     nav .navbar-nav li a {
       text-align: center;
       border: none;
@@ -332,8 +348,8 @@ navbar-toggler-collaps .top-bar:focus {
 
 
 
-/* apply below 1000px */
-@media only screen and (max-width: 1000px) {
+/* apply below 1024px - tablet and mobile */
+@media only screen and (max-width: 1024px) {
     .text-item {
       color: white;
     }
