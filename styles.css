@@ -47,11 +47,6 @@ body {
   left: 6%;
 }
 
-.logo2 {
-  position: absolute;
-  visibility: hidden;
-}
-
 .container2 {
   position: relative;
   background-color: #a6a7a9;
@@ -100,34 +95,13 @@ body {
 /*apply below 768x - mobile*/
 @media only screen and (max-width: 768px) {
    .logo {
-     visibility: hidden;
-   }
-
-   .logo2 {
      position: absolute;
      height: auto;
      width: 60%;
      top: 5em;
      left: 22%;
-     visibility: visible;
    }
 }
-
-  /*apply below 100x - mobile*/
-  @media only screen and (max-height: 100px) {
-      .logo {
-        visibility: hidden;
-      }
-
-      .logo2 {
-        position: absolute;
-        height: auto;
-        width: 60%;
-        top: 5em;
-        left: 22%;
-        visibility: visible;
-      }
-  }
 
    .brand1 {
      display: none;
