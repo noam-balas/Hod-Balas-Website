@@ -1,6 +1,6 @@
 body {
   height: 100vh;
-  width: 100vw;
+  width: auto;
   background-image: url("bgbg2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -9,7 +9,7 @@ body {
  /*apply below 1000px*/
 @media only screen and (max-width: 1000px) {
     body {
-      height: auto;
+      height: 100vh;
       width: auto;
       background-image: url("bgbg-ph.jpg");
       background-size: cover;
@@ -20,9 +20,9 @@ body {
 .logo {
   position: absolute;
   height: auto;
-  width: 30%;
-  top: 30%;
-  left: 16%;
+  width: 40%;
+  top: 35%;
+  left: 6%;
 }
 
 .logo2 {
