@@ -273,6 +273,10 @@ nav .navbar-nav li a:hover {
   }
 }
 
+.dropdown {
+  display: none;
+}
+
 /*apply below 900px - mobile*/
 @media only screen and (max-height: 900px) {
     .logo {
@@ -293,6 +297,14 @@ nav .navbar-nav li a:hover {
     border: none;
     font-size: 100%;
   }
+
+.text-item {
+  display: none;
+}
+
+.dropdown {
+  display: grid;
+}
 
   .logo {
     position: absolute;
