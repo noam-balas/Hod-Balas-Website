@@ -19,6 +19,7 @@ body {
    body {
      height: 100vh;
      width: 100vw;
+     background-image: url("bg-2phone.jpg");
      background-size: cover;
      background-position: center;
      background-repeat: no-repeat;
