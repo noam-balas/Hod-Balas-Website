@@ -7,28 +7,41 @@ html {
 body {
   height: 100vh;
   width: 100vw;
-  background-image: url("bgbg2.jpg");
+  background-image: url("/home/noam/Website Hod/Photos/Photos/bg2.jpg");
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   overflow: hidden;
 }
 
- /*apply below 768px - mobile*/
+/*apply below 1024px - tablet and mobile*/
+@media only screen and (max-width: 768px) {
+   body {
+     height: 100vh;
+     width: 100vw;
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     overflow: hidden;
+   }
+}
+
+ /*apply below 768px - mobile
 @media only screen and (max-width: 768px) {
     body {
       height: 100vh;
       width: 100vw;
-      background-image: url("bg-phone.jpg");
       background-size: cover;
+      background-position: right;
       background-repeat: no-repeat;
       overflow: hidden;
     }
-}
+}*/
 
 .logo {
   position: absolute;
   height: auto;
-  width: 40%;
+  width: 30%;
   top: 32%;
   left: 6%;
 }
@@ -37,6 +50,30 @@ body {
   position: absolute;
   visibility: hidden;
 }
+
+.container2 {
+  position: relative;
+  background-color: #a6a7a9;
+  height: 100vh;
+  width: 100vw;
+}
+/*
+.bg {
+  position: absolute;
+  height: 100vh;
+  width: auto;
+  right: 0;
+}
+*/
+/*apply below 768px - mobile
+@media only screen and (max-width: 768px) {
+   .bg {
+     position: absolute;
+     height: 100vh;
+     width: auto;
+     right: 0;
+   }
+}*/
 
 /*apply below 1024px - tablet
 @media only screen and (max-width: 1024px) {
@@ -53,7 +90,12 @@ body {
      visibility: visible;
    }
 }
+*/
 
+
+.brand2 {
+  display: none;
+}
 /*apply below 768x - mobile*/
 @media only screen and (max-width: 768px) {
    .logo {
@@ -63,11 +105,18 @@ body {
    .logo2 {
      position: absolute;
      height: auto;
-     width: 50%;
+     width: 60%;
      bottom: 5%;
-     left: 28%;
+     left: 22%;
      visibility: visible;
    }
+
+   .brand1 {
+     display: none;
+   }
+    .brand2 {
+      display: grid;
+    }
 }
 
 /*apply below 768x - mobile2
@@ -145,7 +194,7 @@ body {
 
 
 
-/* set color for nav-items and set the sizwe of brand */
+/* set color for nav-items and set the size of brand */
 nav .navbar-nav li a{
   font-size: 140%;
   color: white !important;
