@@ -220,7 +220,7 @@ nav .navbar-nav .nav-item .nav-link:hover {
    body {
      height: 100vh;
      width: 100vw;
-     background-image: url("bg-2phone.jpg");
+     background-image: url(bg-2phone.jpg");
      background-size: cover;
      background-position: center;
      background-repeat: no-repeat;
@@ -230,9 +230,9 @@ nav .navbar-nav .nav-item .nav-link:hover {
    .logo {
      position: absolute;
      height: auto;
-     width: 60%;
+     width: 45%;
      top: 5em;
-     left: 22%;
+     left: 28%;
    }
 
    .brand1 {
@@ -249,7 +249,7 @@ nav .navbar-nav .nav-item .nav-link:hover {
       position: absolute;
       height: auto;
       width: 70%;
-      top: 7em;
+      top: 6em;
       left: 22%;
     }
  .brand1 {
@@ -267,9 +267,9 @@ nav .navbar-nav .nav-item .nav-link:hover {
   .logo {
     position: absolute;
     height: auto;
-    width: 30%;
-    top: 5em;
-    left: 5%;
+    width: 40%;
+    top: 8em;
+    left: 28%;
   }
 }
 
@@ -278,7 +278,7 @@ nav .navbar-nav .nav-item .nav-link:hover {
 }
 
 /*apply below 500px - mobile*/
-@media only screen and (max-height: 500px) {
+@media only screen and (max-height: 600px) {
     .logo {
       position: absolute;
       height: auto;
