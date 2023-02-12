@@ -277,8 +277,8 @@ nav .navbar-nav .nav-item .nav-link:hover {
   display: none;
 }
 
-/*apply below 900px - mobile*/
-@media only screen and (max-height: 900px) {
+/*apply below 500px - mobile*/
+@media only screen and (max-height: 500px) {
     .logo {
       position: absolute;
       height: auto;
