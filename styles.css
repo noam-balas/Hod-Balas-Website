@@ -7,7 +7,7 @@ html {
 body {
   height: 100vh;
   width: 100vw;
-  background-image: url("bg2.jpg");
+  background-image: url("/home/noam/Website Hod/Photos/Photos/bg2.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -56,9 +56,10 @@ body {
 
 
 
+
 /* set color for nav-items and set the size of brand */
 nav .navbar-nav .nav-item .nav-link{
-  font-size: 140%;
+  font-size: 130%;
   color: white !important;
 
   /*transition-property: color;*/
@@ -86,7 +87,7 @@ nav .navbar-nav .nav-item .nav-link:hover {
     nav .navbar-nav .nav-item .nav-link {
       text-align: center;
       border: none;
-      font-size: 150%;
+      font-size: 100%;
     }
 
     nav .navbar-nav .nav-item .nav-link:hover {
@@ -224,7 +225,7 @@ nav .navbar-nav .nav-item .nav-link:hover {
    body {
      height: 100vh;
      width: 100vw;
-     background-image: url("bg-2phone.jpg");
+     background-image: url("/home/noam/Website Hod/Photos/Photos/bg-2phone.jpg");
      background-size: cover;
      background-position: center;
      background-repeat: no-repeat;
@@ -298,6 +299,7 @@ nav .navbar-nav .nav-item .nav-link:hover {
     display: grid;
   }
 /*
+drop down
   nav .navbar-nav .dropdown-menu .dropdown-item {
     color: white;
   }
