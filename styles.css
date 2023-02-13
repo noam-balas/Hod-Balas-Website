@@ -114,7 +114,7 @@ nav .navbar-nav .nav-item .nav-link:hover {
     */
     height: auto;
     width: 30%;
-    top: 18em;
+    top: 16em;
     left: 3%;
   }
 }
@@ -323,9 +323,9 @@ nav .navbar-nav .nav-item .nav-link:hover {
     .logo {
       position: absolute;
       height: auto;
-      width: 35%;
-      top: 9em;
-      left: 1%;
+      width: 32%;
+      top: 10em;
+      left: 3%;
     }
  .brand1 {
    display: none;
@@ -371,17 +371,20 @@ drop down
 
 @media only screen and (max-height: 350px) {
   .logo {
-    top: 5em;
-  }
-  
-  nav .navbar-nav .nav-item .nav-link {
-    font-size: 90%;
+    position: absolute;
+    height: auto;
+    width: 32%;
+    top: 4em;
+    left: 1%;
   }
 }
 
 @media only screen and (max-height: 200px) {
   .logo {
-    top: 3%;
-    left: 0;
+    position: absolute;
+    height: auto;
+    width: 32%;
+    top: 2em;
+    left: 5%;
   }
 }
