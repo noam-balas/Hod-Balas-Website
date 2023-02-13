@@ -367,6 +367,10 @@ drop down
   .logo {
     top: 5em;
   }
+  
+  nav .navbar-nav .nav-item .nav-link {
+    font-size: 90%;
+  }
 }
 
 @media only screen and (max-height: 200px) {
