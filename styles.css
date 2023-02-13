@@ -1,16 +1,16 @@
 html {
-    background-color: #100c08;
+    background: #E5E4E2;
 }
 
 body {
-  background-color: #100c08;
+  background: #E5E4E2;
 }
 
 .container2 {
   position: relative;
   height: 100vh;
   width: 100vw;
-  background-image: url("bg2.jpg");
+  background-image: url("/home/noam/Website Hod/Photos/Photos/bg2.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -19,18 +19,36 @@ body {
 
 .container3 {
   position: relative;
-  height: auto;
-  width: 100vw;
-  background-color: #100c08;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  background-color: #E5E4E2;
+  text-align: center;
+  padding-bottom: 7%;
+  padding-top: 2%
 }
 
+
 .carousel {
-  position: absolute;
-  height: auto;
-  width: 50%;
-  left: 25%;
-  padding-bottom: 3em;
-  padding-top: 4em;
+  width: 100%;
+  text-align: center;
+  background-color: #E5E4E2;
+  padding: 8% 25% 5% 23%;
+}
+
+.carousel .carousel-indicators li.active {
+  background-color: #0f0f0f;
+  opacity: 0.8;
+}
+
+.carousel .carousel-indicators li {
+  background-color: #0f0f0f;
+  opacity: 0.4;
+  bottom: 0;
+}
+
+.prev, .next {
+  visibility: hidden;
 }
 
 
@@ -40,6 +58,11 @@ body {
   width: 30%;
   top: 32%;
   left: 6%;
+}
+
+.brands {
+  vertical-align: middle;
+  height: 100%;
 }
 
 .brand2 {
@@ -91,8 +114,17 @@ nav .navbar-nav .nav-item .nav-link{
 }
 
 nav .navbar-nav .nav-item .nav-link:hover {
-  color: #EADDCA !important;
-  border-color: #EADDCA;
+  color: #D2B48C !important;
+  border-color: #D2B48C;
+}
+
+.navbar-preheader .navbar-toggle:hover .icon-bar {
+    background-color: #D2B48C;
+}
+
+/* add a hover color the toggler-icon button */
+.toggler:hover .toggler-icon {
+  background-color: #D2B48C;
 }
 
 /* apply below 1024px - tablet and mobile */
@@ -129,13 +161,27 @@ nav .navbar-nav .nav-item .nav-link:hover {
     width: 30%;
     top: 16em;
     left: 3%;
-    }
-    
-    .video {
-    height: 50%;
+  }
+
+  .brand1 {
+    display: none;
+  }
+
+  .brand2 {
+    display: grid;
+  }
+
+  .carousel {
+    width: 100%;
+    text-align: center;
+    background-color: #E5E4E2;
+    padding: 20% 10% 10% 10%;
   }
 }
 
+.navbar-nav-links {
+  text-align: left;
+}
 
 .navbar-brand {
   font-size: 200% !important;
@@ -222,15 +268,37 @@ nav .navbar-nav .nav-item .nav-link:hover {
 /************************************************************/
 /* copyright - the footer of the page */
 .copyright {
-  visibility: hidden;
   bottom: 0;
+  padding-bottom: 17.5em;
   color: white;
   text-align: center;
   position: relative;
   font-size: 1em;
   width: 100%;
   z-index: 1;
+  background-color: #0f0f0f;
 }
+
+.rights {
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  font-size: 80%;
+  color: grey;
+}
+
+.footer-icons {
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  bottom: 4em;
+}
+
+.space-footer {
+  visibility: hidden;
+}
+
 /************************************************************/
 
 
@@ -242,7 +310,7 @@ nav .navbar-nav .nav-item .nav-link:hover {
    .container2 {
      height: 100vh;
      width: 100vw;
-     background-image: url("bg-phone6.jpg");
+     background-image: url("/home/noam/Website Hod/Photos/Photos/bg-phone6.jpg");
      background-size: cover;
      background-position: center;
      background-repeat: no-repeat;
@@ -263,6 +331,13 @@ nav .navbar-nav .nav-item .nav-link:hover {
     .brand2 {
       display: grid;
     }
+
+    .carousel {
+      width: 100%;
+      text-align: center;
+      background-color: #E5E4E2;
+      padding: 25% 0 25% 0;
+    }
 }
 
 @media only screen and (max-width: 767px) {
@@ -275,7 +350,22 @@ nav .navbar-nav .nav-item .nav-link:hover {
   }
 
   nav .navbar-nav .nav-item .nav-link {
+    width: 100%;
+    text-align: center;
     font-size: 150%;
+  }
+
+  .right-space {
+    display: none;
+  }
+
+  .nav-icons {
+    width: 100%;
+    text-align: center;
+  }
+
+  .icon {
+    text-align: center;
   }
 }
 
