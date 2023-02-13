@@ -7,7 +7,7 @@ html {
 body {
   height: 100vh;
   width: 100vw;
-  background-image: url("bg2.jpg");
+  background-image: url("/home/noam/Website Hod/Photos/Photos/bg2.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -238,9 +238,9 @@ nav .navbar-nav .nav-item .nav-link:hover {
    body {
      height: 100vh;
      width: 100vw;
-     background-image: url("bg-phone4.jpg");
+     background-image: url("bg-phone5.jpg");
      background-size: cover;
-     background-position: left;
+     background-position: center;
      background-repeat: no-repeat;
      overflow: hidden;
    }
@@ -249,8 +249,8 @@ nav .navbar-nav .nav-item .nav-link:hover {
      position: absolute;
      height: auto;
      width: 32%;
-     top: 20em;
-     left: 5%;
+     top: 16em;
+     left: 3%;
    }
 
    .brand1 {
@@ -265,20 +265,29 @@ nav .navbar-nav .nav-item .nav-link:hover {
   .logo {
     position: absolute;
     height: auto;
-    width: 35%;
-    top: 20em;
+    width: 25%;
+    top: 18em;
     left: 5%;
   }
 }
 
 /*apply below 500px - mobile*/
 @media only screen and (max-width: 500px) {
+    body {
+      height: 100vh;
+      width: 100vw;
+      background-image: url("bg-phone5.jpg");
+      background-size: cover;
+      background-position: left;
+      background-repeat: no-repeat;
+      overflow: hidden;
+    }
     .logo {
       position: absolute;
       height: auto;
-      width: 45%;
+      width: 40%;
       top: 18em;
-      left: 3%;
+      left: 4%;
     }
  .brand1 {
    display: none;
@@ -346,7 +355,7 @@ drop down
 }
 */
   nav .navbar-nav .nav-item .nav-link {
-    font-size: 120%;
+    font-size: 100%;
   }
 }
 
