@@ -29,7 +29,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 
 <body>
-
     <!-- container1 - icons footer bg-dark bg-gradient  navbar-dark bg-dark-->
     <nav class="navbar navbar-expand-md fixed-top">
     <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
@@ -98,11 +97,14 @@
   <!-- container2 - image for top of the page -->
   <!--
       <div class="container2">
-          <img class="bg" src="/home/noam/Website Hod/Photos/Photos/bg.jpg" alt="Hod Balas Photo">
+          <img class="bg" src="bg.jpg" alt="Hod Balas Photo">
       </div>
     -->
+      <div class="container2">
+      </div>
+
       <img class="logo" src="logo-black.png" alt="logo">
-      <!--<img class="logo2" src="/home/noam/Website Hod/Photos/Photos/logo2.png" alt="logo2">-->
+      <!--<img class="logo2" src="logo2.png" alt="logo2">-->
 <!--
     <script type="text/javascript">
 
@@ -115,33 +117,54 @@
   -->
     <!--<header class="container2 header-fluid">-->
       <!--
-    <img class="image1 img-fluid" src="Photos/bg.png" alt="Hod Balas image">
+    <img class="image1 img-fluid" src="bg.png" alt="Hod Balas image">
     <div class="row">
       <div class="column">
-        <img class ="image2 name img-fluid" src="Photos/hod.png" alt="Hod">
+        <img class ="image2 name img-fluid" src="hod.png" alt="Hod">
       </div>
       <div class="column">
-        <img class ="image3  name img-fluid" src="Photos/balas.png" alt="Balas">
+        <img class ="image3  name img-fluid" src="balas.png" alt="Balas">
       </div>
     </div>
   -->
   <!--<picture>
 
-    <img class="img-fluid" media="(max-width:650px)" srcset="Photos/bg-p4.png" class="image1-2">
+    <img class="img-fluid" media="(max-width:650px)" srcset="bg-p4.png" class="image1-2">
   </picture>
-<img class="img-fluid" src="Photos/bg.png" class="image1-1">
-<img class="img-fluid" src="Photos/HOD.png" alt="HOD">
-<img class="img-fluid" src="Photos/BALAS.png" alt="BALAS"> -->
-<!--<img class="img-fluid" src="Photos/bg-p3.png" class="image1-1">
+<img class="img-fluid" src="bg.png" class="image1-1">
+<img class="img-fluid" src="HOD.png" alt="HOD">
+<img class="img-fluid" src="BALAS.png" alt="BALAS"> -->
+<!--<img class="img-fluid" src="bg-p3.png" class="image1-1">
 
 </header>-->
   <!-- container3 - videos -->
-  <section class="container3">
-      <iframe class="video video1 fluid" width="560" height="315" src="https://www.youtube.com/embed/DBXIfGatXdk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen></iframe>
-      <iframe class="video video2 fluid" width="560" height="315" src="https://www.youtube.com/embed/hUNcCrw7l9I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen></iframe>
-  </section>
+  <div class="container3">
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <iframe class="video video1 fluid d-block w-100" width="560" height="450" src="https://www.youtube.com/embed/DBXIfGatXdk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen></iframe>
+      </div>
+      <div class="carousel-item">
+        <iframe class="video video2 fluid d-block w-100" width="560" height="450" src="https://www.youtube.com/embed/hUNcCrw7l9I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen></iframe>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  </div>
     <!--
     <div class="container3-2">
       <button type="button" name="button" class="button1" onclick="button1_func()"></button>
