@@ -238,7 +238,7 @@ nav .navbar-nav .nav-item .nav-link:hover {
    body {
      height: 100vh;
      width: 100vw;
-     background-image: url("bg-phone5.jpg");
+     background-image: url("bg-phone6.jpg");
      background-size: cover;
      background-position: center;
      background-repeat: no-repeat;
@@ -273,21 +273,12 @@ nav .navbar-nav .nav-item .nav-link:hover {
 
 /*apply below 500px - mobile*/
 @media only screen and (max-width: 500px) {
-    body {
-      height: 100vh;
-      width: 100vw;
-      background-image: url("bg-phone5.jpg");
-      background-size: cover;
-      background-position: left;
-      background-repeat: no-repeat;
-      overflow: hidden;
-    }
     .logo {
       position: absolute;
       height: auto;
       width: 40%;
       top: 18em;
-      left: 4%;
+      left: 7%;
     }
  .brand1 {
    display: none;
