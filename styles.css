@@ -129,6 +129,10 @@ nav .navbar-nav .nav-item .nav-link:hover {
     width: 30%;
     top: 16em;
     left: 3%;
+    }
+    
+    .video {
+    height: 50%;
   }
 }
 
