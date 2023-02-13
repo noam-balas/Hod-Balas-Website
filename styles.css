@@ -328,6 +328,18 @@ nav .navbar-nav .nav-item .nav-link:hover {
   visibility: hidden;
 }
 
+.footer-logo-container {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  bottom: 50%;
+}
+
+.footer-logo {
+  height: 4em;
+  width: 7em;
+}
+
 /************************************************************/
 
 
