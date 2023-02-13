@@ -194,6 +194,12 @@ nav .navbar-nav .nav-item .nav-link:hover {
     .text-item {
       color: white;
     }
+
+    .logo {
+      height: auto;
+      width: 30%;
+      top: 18em;
+    }
 }
 
 /*************************************************
@@ -242,9 +248,9 @@ nav .navbar-nav .nav-item .nav-link:hover {
    .logo {
      position: absolute;
      height: auto;
-     width: 45%;
+     width: 35%;
      top: 20em;
-     left: 2%;
+     left: 1%;
    }
 
    .brand1 {
