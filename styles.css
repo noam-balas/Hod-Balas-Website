@@ -106,10 +106,16 @@ nav .navbar-nav .nav-item .nav-link:hover {
   }
 
   .logo {
+    /*
     height: auto;
     width: 20%;
     left: 5%;
     top: 5em;
+    */
+    height: auto;
+    width: 30%;
+    top: 18em;
+    left: 3%;
   }
 }
 
@@ -194,12 +200,6 @@ nav .navbar-nav .nav-item .nav-link:hover {
     .text-item {
       color: white;
     }
-
-    .logo {
-      height: auto;
-      width: 30%;
-      top: 18em;
-    }
 }
 
 /*************************************************
@@ -248,9 +248,9 @@ nav .navbar-nav .nav-item .nav-link:hover {
    .logo {
      position: absolute;
      height: auto;
-     width: 35%;
+     width: 32%;
      top: 20em;
-     left: 1%;
+     left: 5%;
    }
 
    .brand1 {
@@ -259,6 +259,16 @@ nav .navbar-nav .nav-item .nav-link:hover {
     .brand2 {
       display: grid;
     }
+}
+
+@media only screen and (max-width: 700px) {
+  .logo {
+    position: absolute;
+    height: auto;
+    width: 35%;
+    top: 20em;
+    left: 5%;
+  }
 }
 
 /*apply below 500px - mobile*/
