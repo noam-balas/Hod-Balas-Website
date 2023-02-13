@@ -17,15 +17,43 @@ body {
   z-index: 0;
 }
 
+
 .container3 {
   position: relative;
   background-color: #E5E4E2;
   width: 100vw;
-  padding-bottom: 5%;
-  padding-top: 10%;
+  height: auto;
+  padding-top: 8%;
 }
 
 
+.carousel {
+  background-color: #E5E4E2;
+  width: 50vw;
+  margin-left: 25%;
+  padding-bottom: 3.5em;
+}
+
+@media only screen and (min-width: 750px) {
+  .video {
+    height: 500px;
+  }
+}
+
+/*
+.carousel {
+  position: absolute;
+  background-color: #E5E4E2;
+  width: 100vw;
+  text-align: center;
+}*/
+/*
+.carousel-item {
+  width: 100%;
+  margin-bottom: 5em;
+}*/
+
+/*
 .carousel {
   position: absolute;
   background-color: #E5E4E2;
@@ -33,7 +61,7 @@ body {
   padding-left: 30%;
   padding-right: 30%;
 }
-
+*/
 .carousel .carousel-indicators li.active {
   background-color: #0f0f0f;
   opacity: 0.8;
@@ -169,7 +197,7 @@ nav .navbar-nav .nav-item .nav-link:hover {
   .brand2 {
     display: grid;
   }
-height: 20vh;
+/*
   .carousel {
     position: absolute;
     background-color: #E5E4E2;
@@ -177,6 +205,7 @@ height: 20vh;
     padding-left: 20%;
     padding-right: 20%;
   }
+  */
 }
 
 .navbar-nav-links {
@@ -279,10 +308,10 @@ height: 20vh;
   background-color: #0f0f0f;
 }
 
-.rights {width: 100%;
+.rights {
+  width: 100%;
   text-align: center;
   position: absolute;
-  width: 100%;
   bottom: 0;
   font-size: 80%;
   color: grey;
@@ -331,7 +360,7 @@ height: 20vh;
     .brand2 {
       display: grid;
     }
-
+/*
     .carousel {
       position: absolute;
       background-color: #E5E4E2;
@@ -339,6 +368,7 @@ height: 20vh;
       padding-left: 15%;
       padding-right: 15%;
     }
+    */
 }
 
 @media only screen and (max-width: 767px) {
@@ -374,7 +404,7 @@ height: 20vh;
   nav .navbar-nav .nav-item .nav-link {
     font-size: 150%;
   }
-
+  /*
   .carousel {
     position: absolute;
     background-color: #E5E4E2;
@@ -382,6 +412,7 @@ height: 20vh;
     padding-left: 10%;
     padding-right: 10%;
   }
+  */
 }
 
 /*apply below 500px - mobile*/
@@ -415,7 +446,7 @@ height: 20vh;
     left: 28%;
   }
   */
-
+  /*
   .carousel {
     position: absolute;
     background-color: #E5E4E2;
@@ -423,7 +454,7 @@ height: 20vh;
     padding-left: 5%;
     padding-right: 5%;
   }
-
+*/
 }
 
 .dropdown {
