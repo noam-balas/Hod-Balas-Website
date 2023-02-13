@@ -89,12 +89,12 @@ nav .navbar-nav .nav-item .nav-link:hover {
       border: none;
       font-size: 100%;
     }
-
+/*
     nav .navbar-nav .nav-item .nav-link:hover {
       color: #D2B48C !important;
       border: none;
     }
-
+*/
   .navbar {
     text-align: center;
     opacity: 0.9;
@@ -269,6 +269,10 @@ nav .navbar-nav .nav-item .nav-link:hover {
     top: 18em;
     left: 5%;
   }
+
+  nav .navbar-nav .nav-item .nav-link {
+    font-size: 150%;
+  }
 }
 
 /*apply below 500px - mobile*/
@@ -286,12 +290,13 @@ nav .navbar-nav .nav-item .nav-link:hover {
   .brand2 {
     display: grid;
   }
-
+/*
   nav .navbar-nav .nav-item .nav-link {
     text-align: center;
     border: none;
     font-size: 90%;
   }
+  */
   /*
   .logo {
     position: absolute;
@@ -345,9 +350,11 @@ drop down
   display: grid;
 }
 */
+/*
   nav .navbar-nav .nav-item .nav-link {
     font-size: 90%;
   }
+  */
 }
 
 @media only screen and (max-height: 350px) {
