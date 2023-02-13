@@ -10,7 +10,7 @@ body {
   position: relative;
   height: 100vh;
   width: 100vw;
-  background-image: url("/home/noam/Website Hod/Photos/Photos/bg2.jpg");
+  background-image: url("bg2.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -310,7 +310,7 @@ nav .navbar-nav .nav-item .nav-link:hover {
    .container2 {
      height: 100vh;
      width: 100vw;
-     background-image: url("/home/noam/Website Hod/Photos/Photos/bg-phone6.jpg");
+     background-image: url("bg-phone6.jpg");
      background-size: cover;
      background-position: center;
      background-repeat: no-repeat;
