@@ -303,12 +303,16 @@ nav .navbar-nav .nav-item .nav-link:hover {
 
     .prev {
       visibility: visible;
+      margin-top: 20%;
       padding-left: 30%;
+      height: 30%;
     }
 
     .next {
       visibility: visible;
+      margin-top: 20%;
       padding-right: 30%;
+      height: 30%;
     }
 }
 
