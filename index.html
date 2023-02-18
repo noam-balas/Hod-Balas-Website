@@ -282,4 +282,14 @@ $('.carousel').on('touchstart', function(event){
     ©️ 2023 Hod Balas. All Rights Reserved.
   </p>
 </footer>
+  <script type="text/javascript">
+$(document).ready(function() {
+   $("#myCarousel").swiperight(function() {
+      $(this).carousel('prev');
+    });
+   $("#myCarousel").swipeleft(function() {
+      $(this).carousel('next');
+   });
+});
+</script>
 </html>
