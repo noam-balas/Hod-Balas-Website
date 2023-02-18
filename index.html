@@ -168,6 +168,18 @@
     </a>
   </div>
 </div>
+  
+  <script type="text/javascript">
+$(document).ready(function() {
+   $("#carouselExampleIndicators").swiperight(function() {
+      $(this).carousel('prev');
+    });
+   $("#carouselExampleIndicators").swipeleft(function() {
+      $(this).carousel('next');
+   });
+});
+</script>
+  
     <!--
     <div class="container3-2">
       <button type="button" name="button" class="button1" onclick="button1_func()"></button>
@@ -281,14 +293,5 @@ $('.carousel').on('touchstart', function(event){
   <p class="rights">
     ©️ 2023 Hod Balas. All Rights Reserved.
   </p>
-<script type="text/javascript">
-$(document).ready(function() {
-   $("#carouselExampleIndicators").swiperight(function() {
-      $(this).carousel('prev');
-    });
-   $("#carouselExampleIndicators").swipeleft(function() {
-      $(this).carousel('next');
-   });
-});
-</script>
+  </footer>
 </html>
