@@ -297,14 +297,19 @@ nav .navbar-nav .nav-item .nav-link:hover {
       color: white;
     }
     
-   .carousel-control-prev-icon, .carousel-control-next-icon {
-      visibility: hidden;
+   .carousel .prev {
+      visibility: visible;
+      height: 30%;
+      margin-top: 25%;
+      width: 35%;
+
     }
 
-    .prev, .next {
+    .carousel .next {
       visibility: visible;
-      height: 4%;
-      margin-top: 50%;
+      height: 30%;
+      margin-top: 25%;
+      width: 35%;
     }
 }
 
