@@ -296,10 +296,11 @@ nav .navbar-nav .nav-item .nav-link:hover {
     .text-item {
       color: white;
     }
-    
+    /*
     .prev, .next {
       visibility: visible;
     }
+    */
 }
 
 /************************************************************/
