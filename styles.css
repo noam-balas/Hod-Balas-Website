@@ -301,18 +301,10 @@ nav .navbar-nav .nav-item .nav-link:hover {
       visibility: hidden;
     }
 
-    .prev {
+    .prev, .next {
       visibility: visible;
-      margin-top: 20%;
-      padding-left: 30%;
       height: 30%;
-    }
-
-    .next {
-      visibility: visible;
-      margin-top: 20%;
-      padding-right: 30%;
-      height: 30%;
+      margin-top: 70px;
     }
 }
 
