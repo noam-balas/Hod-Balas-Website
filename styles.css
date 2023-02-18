@@ -15,6 +15,7 @@ body {
   background-position: center;
   background-repeat: no-repeat; */
   z-index: 0;
+  background-color: #E5E4E2;
   overflow: hidden;
 }
 
