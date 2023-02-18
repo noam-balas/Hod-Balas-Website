@@ -141,8 +141,7 @@ nav .navbar-nav .nav-item .nav-link{
   border-width: medium;
   border-color: transparent;
   transition-duration: 0.5s;
-  font-family: 'Arimo', sans-serif;
-  font-family: 'Xanh Mono', monospace;
+  font-family: 'Open Sans', sans-serif;
 }
 
 nav .navbar-nav .nav-item .nav-link:hover {
