@@ -297,19 +297,18 @@ nav .navbar-nav .nav-item .nav-link:hover {
       color: white;
     }
     
-   .carousel .prev {
+   .carousel .carousel-inner .prev {
       visibility: visible;
-      height: 30%;
-      margin-top: 25%;
+      height: 40%;
       width: 35%;
-
+      margin-top: 70px;
     }
 
-    .carousel .next {
+    .carousel .carousel-inner .next {
       visibility: visible;
-      height: 30%;
-      margin-top: 25%;
+      height: 40%;
       width: 35%;
+      margin-top: 70px;
     }
 }
 
