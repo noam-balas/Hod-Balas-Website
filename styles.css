@@ -10,11 +10,78 @@ body {
   position: relative;
   height: 100vh;
   width: 100vw;
+  /* background-image: url("bg2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; */
+  z-index: 0;
+  overflow: hidden;
+}
+
+.container2 .carousel {
+  position: absolute;
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  z-index: 0;
+}
+
+.bg1 {
+  height: 100vh;
+  width: 100vw;
   background-image: url("bg2.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  z-index: 0;
+}
+
+.bg2 {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("bg number22-3.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bg3 {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("bg number3-3.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.top-carousel ol.carousel-indicators {
+  height: auto;
+}
+
+.top-carousel ol.carousel-indicators li {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.top-carousel ol.carousel-indicators .active {
+  background-color: white !important;
+}
+
+.top-carousel .carousel-inner .carousel-item img {
+  height: 90vh;
+  width: 100vw;
+  padding: 0;
+}
+
+.top-carousel .carousel-inner .top-prev {
+    height: 100%;
+    width: 50%;
+}
+
+.top-carousel .carousel-inner .top-next {
+    height: 100%;
+    width: 50%;
 }
 
 
@@ -35,40 +102,18 @@ body {
   padding-bottom: 3.5em;
 }
 
-@media only screen and (min-width: 750px) {
+@media (min-width: 750px) {
   .video {
     height: 500px;
   }
 }
 
-@media only screen and (max-height: 500px) {
+@media (max-height: 500px) {
   .video {
     height: 250px;
   }
 }
 
-/*
-.carousel {
-  position: absolute;
-  background-color: #E5E4E2;
-  width: 100vw;
-  text-align: center;
-}*/
-/*
-.carousel-item {
-  width: 100%;
-  margin-bottom: 5em;
-}*/
-
-/*
-.carousel {
-  position: absolute;
-  background-color: #E5E4E2;
-  padding-bottom: 4em;
-  padding-left: 30%;
-  padding-right: 30%;
-}
-*/
 .carousel .carousel-indicators li.active {
   background-color: #0f0f0f;
   opacity: 0.8;
@@ -83,6 +128,8 @@ body {
 .prev, .next {
     visibility: hidden;
 }
+
+
 
 .logo {
   position: absolute;
@@ -159,7 +206,7 @@ nav .navbar-nav .nav-item .nav-link:hover {
 }
 
 /* apply below 1024px - tablet and mobile */
-@media only screen and (max-width: 1024px) {
+@media (max-height: 1024px) and (max-width: 1024px) {
     nav .navbar-nav .nav-item .nav-link {
       text-align: center;
       border: none;
@@ -201,15 +248,6 @@ nav .navbar-nav .nav-item .nav-link:hover {
   .brand2 {
     display: grid;
   }
-/*
-  .carousel {
-    position: absolute;
-    background-color: #E5E4E2;
-    padding-bottom: 4em;
-    padding-left: 20%;
-    padding-right: 20%;
-  }
-  */
 }
 
 .navbar-nav-links {
@@ -292,12 +330,12 @@ nav .navbar-nav .nav-item .nav-link:hover {
 }
 
 /* apply below 1024px - tablet and mobile */
-@media only screen and (max-width: 1024px) {
+@media only (max-width: 1024px) {
     .text-item {
       color: white;
     }
-    
-   .carousel .carousel-inner .prev {
+
+    .carousel .carousel-inner .prev {
       visibility: visible;
       height: 40%;
       width: 35%;
@@ -360,28 +398,51 @@ nav .navbar-nav .nav-item .nav-link:hover {
 
 /************************************************************/
 
-
-
-
-
 /*apply below 1024px - tablet and mobile*/
-@media only screen and (max-width: 768px) {
+@media (max-width: 768px) {
    .container2 {
      height: 100vh;
      width: 100vw;
-     background-image: url("bg-phone6.jpg");
+     /*background-image: url("bg-phone6.jpg");
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;*/
+     overflow: hidden;
+   }
+
+   .bg1 {
+     height: 100vh;
+     width: 100vw;
+     background-image: url("bg-2phone.jpg");
      background-size: cover;
      background-position: center;
      background-repeat: no-repeat;
-     overflow: hidden;
+   }
+
+   .bg2 {
+     height: 100vh;
+     width: 100vw;
+     background-image: url("bg-phone number2.jpg");
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+   }
+
+   .bg3 {
+     height: 100vh;
+     width: 100vw;
+     background-image: url("bg-phone number3.jpg");
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
    }
 
    .logo {
      position: absolute;
      height: auto;
-     width: 32%;
-     top: 16em;
-     left: 3%;
+     width: 45%;
+     top: 7.5em;
+     left: 25%;
    }
 
    .brand1 {
@@ -390,26 +451,9 @@ nav .navbar-nav .nav-item .nav-link:hover {
     .brand2 {
       display: grid;
     }
-/*
-    .carousel {
-      position: absolute;
-      background-color: #E5E4E2;
-      padding-bottom: 4em;
-      padding-left: 15%;
-      padding-right: 15%;
-    }
-    */
 }
 
-@media only screen and (max-width: 767px) {
-  .logo {
-    position: absolute;
-    height: auto;
-    width: 40%;
-    top: 15em;
-    left: 5%;
-  }
-
+@media (max-width: 767px) {
   nav .navbar-nav .nav-item .nav-link {
     width: 100%;
     text-align: center;
@@ -430,134 +474,203 @@ nav .navbar-nav .nav-item .nav-link:hover {
   }
 }
 
-@media only screen and (max-width: 700px) {
+@media (max-width: 700px) {
   nav .navbar-nav .nav-item .nav-link {
     font-size: 150%;
   }
-  /*
-  .carousel {
+
+  .logo {
     position: absolute;
-    background-color: #E5E4E2;
-    padding-bottom: 4em;
-    padding-left: 10%;
-    padding-right: 10%;
+    height: auto;
+    width: 45%;
+    top: 7em;
+    left: 25%;
   }
-  */
 }
 
 /*apply below 500px - mobile*/
-@media only screen and (max-width: 500px) {
-    .logo {
-      position: absolute;
-      height: auto;
-      width: 40%;
-      top: 18em;
-      left: 7%;
-    }
+@media (max-width: 500px) {
+  .logo {
+    position: absolute;
+    height: auto;
+    width: 50%;
+    top: 7em;
+    left: 25%;
+  }
  .brand1 {
    display: none;
  }
   .brand2 {
     display: grid;
   }
-/*
-  nav .navbar-nav .nav-item .nav-link {
-    text-align: center;
-    border: none;
-    font-size: 90%;
-  }
-  */
-  /*
-  .logo {
-    position: absolute;
-    height: auto;
-    width: 40%;
-    top: 8em;
-    left: 28%;
-  }
-  */
-  /*
-  .carousel {
-    position: absolute;
-    background-color: #E5E4E2;
-    padding-bottom: 4em;
-    padding-left: 5%;
-    padding-right: 5%;
-  }
-*/
 }
 
 .dropdown {
   display: none;
 }
+
 
 /* apply below 660px */
-@media only screen and (max-height: 660px) {
-    .logo {
-      position: absolute;
-      height: auto;
-      width: 32%;
-      top: 10em;
-      left: 3%;
-    }
+@media (max-height: 660px) {
+  /*
+  .logo {
+    position: absolute;
+    height: auto;
+    width: 30%;
+    top: 12em;
+    left: 3%;
+  }
+  */
  .brand1 {
    display: none;
  }
   .brand2 {
     display: grid;
   }
-/*
-drop down
-  nav .navbar-nav .dropdown-menu .dropdown-item {
-    color: white;
-  }
-
-  nav .navbar-nav .dropdown-menu .dropdown-divider {
-    background: #EADDCA;
-  }
-
-  nav .navbar-nav .dropdown-menu .dropdown-item:hover {
-    background-color: #EADDCA;
-    color: black;
-  }
-
-.text-item {
-  display: none;
 }
 
-.dropdown {
-  display: grid;
-}
-*/
-/*
+@media (max-height: 480px) {
   nav .navbar-nav .nav-item .nav-link {
     font-size: 90%;
+  }
+  /*
+  .logo {
+    position: absolute;
+    height: auto;
+    width: 30%;
+    top: 12em;
+    left: 3%;
   }
   */
 }
 
-@media only screen and (max-height: 480px) {
-  nav .navbar-nav .nav-item .nav-link {
-    font-size: 90%;
-  }
-}
-
-@media only screen and (max-height: 350px) {
+@media (max-height: 1024px) and (max-width: 768px) {
   .logo {
     position: absolute;
     height: auto;
-    width: 32%;
+    width: 30%;
+    top: 22em;
+    left: 3%;
+  }
+}
+
+@media (max-height: 900px) and (max-width: 768px) {
+  .logo {
+    position: absolute;
+    height: auto;
+    width: 30%;
+    top: 20em;
+    left: 3%;
+  }
+}
+
+@media (max-height: 800px) and (max-width: 768px) {
+  .logo {
+    position: absolute;
+    height: auto;
+    width: 30%;
+    top: 16em;
+    left: 3%;
+  }
+}
+
+@media (max-height: 600px) and (max-width: 768px) {
+  .logo {
+    position: absolute;
+    height: auto;
+    width: 30%;
+    top: 14em;
+    left: 3%;
+  }
+}
+
+@media (max-height: 500px) and (max-width: 768px) {
+  .logo {
+    position: absolute;
+    height: auto;
+    width: 30%;
+    top: 11em;
+    left: 3%;
+  }
+}
+
+@media (max-height: 400px) and (max-width: 768px) {
+  .logo {
+    position: absolute;
+    height: auto;
+    width: 30%;
+    top: 5em;
+    left: 3%;
+  }
+}
+
+@media (max-height: 300px) and (max-width: 768px) {
+  .logo {
+    position: absolute;
+    height: auto;
+    width: 30%;
     top: 4em;
-    left: 2%;
+    left: 3%;
   }
 }
 
-@media only screen and (max-height: 200px) {
+@media (max-height: 200px) and (max-width: 768px) {
   .logo {
     position: absolute;
     height: auto;
-    width: 32%;
+    width: 30%;
     top: 2em;
-    left: 2%;
+    left: 3%;
+  }
+}
+
+@media (max-height: 100px) and (max-width: 768px) {
+  .logo {
+    position: absolute;
+    height: auto;
+    width: 30%;
+    top: 0;
+    left: 3%;
+  }
+}
+
+
+@media (max-height: 1024px) and (max-width: 600px) {
+  .logo {
+    position: absolute;
+    height: auto;
+    width: 50%;
+    top: 8em;
+    left: 25%;
+  }
+}
+
+@media (max-height: 900px) and (max-width: 600px) {
+  .logo {
+    position: absolute;
+    height: auto;
+    width: 50%;
+    top: 6em;
+    left: 25%;
+  }
+}
+
+@media (max-height: 800px) and (max-width: 600px) {
+  .logo {
+    position: absolute;
+    height: auto;
+    width: 50%;
+    top: 5em;
+    left: 25%;
+  }
+}
+
+@media (max-height: 600px) and (max-width: 600px) {
+  .logo {
+    position: absolute;
+    height: auto;
+    width: 50%;
+    top: 0;
+    left: 25%;
   }
 }
