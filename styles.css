@@ -526,8 +526,7 @@ nav .navbar-nav .nav-item .nav-link:hover {
  .brand1 {
    display: none;
  }
-  .brand2 {
-    display: grid;
+  .brand2 {display: grid;
   }
 }
 
