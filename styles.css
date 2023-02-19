@@ -405,14 +405,18 @@ nav .navbar-nav .nav-item .nav-link:hover {
 /*apply below 1024px - tablet and mobile*/
 @media (max-width: 768px) {
    .container2 {
-     height: 97.5vh;
+     height: 95vh;
      width: 100vw;
-     /*background-image: url("bg-phone6.jpg");
+     /*background-image: url("/home/noam/Website Hod/Photos/Photos/bg-phone6.jpg");
      background-size: cover;
      background-position: center;
      background-repeat: no-repeat;*/
      overflow: hidden;
    }
+
+  .container2 .top-carousel {
+    height: 100%;
+  }
 
    .bg1 {
      height: 100vh;
