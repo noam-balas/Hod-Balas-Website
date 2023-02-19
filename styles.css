@@ -514,15 +514,15 @@ nav .navbar-nav .nav-item .nav-link:hover {
 
 /* apply below 660px */
 @media (max-height: 660px) {
-  /*
+  
   .logo {
     position: absolute;
     height: auto;
     width: 30%;
-    top: 12em;
-    left: 3%;
+    top: 6em;
+    left: 4%;
   }
-  */
+  
  .brand1 {
    display: none;
  }
