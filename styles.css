@@ -125,11 +125,11 @@ body {
   opacity: 0.4;
   bottom: 0;
 }
-
+/*
 .prev, .next {
     visibility: hidden;
 }
-
+*/
 
 
 .logo {
@@ -335,7 +335,7 @@ nav .navbar-nav .nav-item .nav-link:hover {
     .text-item {
       color: white;
     }
-
+    /*
     .carousel .carousel-inner .prev {
       visibility: visible;
       height: 40%;
@@ -349,6 +349,7 @@ nav .navbar-nav .nav-item .nav-link:hover {
       width: 35%;
       margin-top: 70px;
     }
+    */
 }
 
 /************************************************************/
