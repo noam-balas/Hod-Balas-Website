@@ -15,8 +15,8 @@ body {
   background-position: center;
   background-repeat: no-repeat; */
   z-index: 0;
-  background-color: #E5E4E2;
   overflow: hidden;
+  background-color: #E5E4E2;
 }
 
 .container2 .carousel {
@@ -63,6 +63,7 @@ body {
   width: 15px;
   border-radius: 50%;
   background-color: white;
+  margin-left: 5px;
 }
 
 .top-carousel ol.carousel-indicators .active {
@@ -125,11 +126,11 @@ body {
   opacity: 0.4;
   bottom: 0;
 }
-/*
+
 .prev, .next {
     visibility: hidden;
 }
-*/
+
 
 
 .logo {
@@ -335,7 +336,7 @@ nav .navbar-nav .nav-item .nav-link:hover {
     .text-item {
       color: white;
     }
-    /*
+
     .carousel .carousel-inner .prev {
       visibility: visible;
       height: 40%;
@@ -349,7 +350,6 @@ nav .navbar-nav .nav-item .nav-link:hover {
       width: 35%;
       margin-top: 70px;
     }
-    */
 }
 
 /************************************************************/
