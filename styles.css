@@ -331,7 +331,7 @@ nav .navbar-nav .nav-item .nav-link:hover {
 }
 
 /* apply below 1024px - tablet and mobile */
-@media only (max-width: 1024px) {
+@media (max-width: 1024px) {
     .text-item {
       color: white;
     }
