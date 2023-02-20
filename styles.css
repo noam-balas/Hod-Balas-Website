@@ -390,7 +390,7 @@ nav .navbar-nav .nav-item .nav-link:hover {
 /* copyright - the footer of the page */
 .copyright {
   bottom: 0;
-  padding-bottom: 22em;
+  padding-bottom: 20em;
   color: white;
   text-align: center;
   position: relative;
@@ -407,7 +407,7 @@ nav .navbar-nav .nav-item .nav-link:hover {
   bottom: 0;
   font-size: 80%;
   color: grey;
-  padding-bottom: 5em;
+  padding-bottom: 4em;
 }
 
 .cr {
@@ -418,7 +418,7 @@ nav .navbar-nav .nav-item .nav-link:hover {
   text-align: center;
   width: 100%;
   position: absolute;
-  bottom: 40%;
+  bottom: 45%;
 }
 
 .footer-icon {
@@ -450,7 +450,7 @@ nav .navbar-nav .nav-item .nav-link:hover {
   position: absolute;
   text-align: center;
   width: 100%;
-  bottom: 65%;
+  bottom: 70%;
 }
 
 .footer-logo {
