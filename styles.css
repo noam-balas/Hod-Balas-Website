@@ -420,7 +420,8 @@ nav .navbar-nav .nav-item .nav-link:hover {
   transition-timing-function: linear;
   color: #808080;
   border-color: #343434;
-  border-style: ridge;
+  border-style: solid;
+  border-width: 1.75px;
   border: 1;
   border-radius: 50%;
   font-size: 1.1em;
