@@ -455,7 +455,7 @@ nav .navbar-nav .nav-item .nav-link:hover {
 /*apply below 1024px - tablet and mobile*/
 @media (max-width: 768px) {
    .container2 {
-     height: 90vh;
+     height: 92.5vh;
      width: 100vw;
      /*background-image: url("bg-phone6.jpg");
      background-size: cover;
@@ -596,14 +596,14 @@ nav .navbar-nav .nav-item .nav-link:hover {
 
 @media (max-height: 480px) {
   nav .navbar-nav .nav-item .nav-link {
-      .container2 {
+    font-size: 90%;
+  }
+     .container2 {
     height: 86vh;
   }
 
   .container2 .top-carousel {
     height: 100%;
-  }
-    font-size: 90%;
   }
   /*
   .logo {
