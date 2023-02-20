@@ -597,7 +597,7 @@ nav .navbar-nav .nav-item .nav-link:hover {
 @media (max-height: 480px) {
   nav .navbar-nav .nav-item .nav-link {
       .container2 {
-    height: 87vh;
+    height: 86vh;
   }
 
   .container2 .top-carousel {
