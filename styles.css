@@ -16,8 +16,8 @@ body {
   background-position: center;
   background-repeat: no-repeat; */
   z-index: 0;
-  overflow: hidden;
   background-color: #E5E4E2;
+  overflow: hidden;
 }
 
 .container2 .carousel {
@@ -26,13 +26,12 @@ body {
   height: 100vh;
   width: 100vw;
   z-index: 0;
-  overflow: hidden;
 }
 
 .bg1 {
   height: 100vh;
   width: 100vw;
-  background-image: url("bg2.jpg");
+  background-image: url("bg 1-3.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -50,7 +49,7 @@ body {
 .bg3 {
   height: 100vh;
   width: 100vw;
-  background-image: url("bg 3-4.jpg");
+  background-image: url("bg number3-3.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -94,27 +93,50 @@ body {
   background-color: #E5E4E2;
   width: 100vw;
   height: auto;
-  padding-top: 8%;
+  padding-top: 10em;
+  padding-bottom: 10em;
   overflow: hidden;
+  text-align: center;
 }
 
 
-.carousel {
+.container3 .carousel {
   background-color: #E5E4E2;
-  width: 50vw;
-  margin-left: 25%;
+  width: 80vw;
+  margin-left: 10%;
   padding-bottom: 3.5em;
+  text-align: center;
 }
 
-@media (min-width: 750px) {
-  .video {
+.container3 .carousel .carousel-inner {
+  text-align: center;
+  width: 100%;
+}
+
+  .container3 .carousel .carousel-inner iframe {
     height: 500px;
+    width: 60%;
   }
+
+  @media (max-width: 1024px) {
+    .container3 .carousel .carousel-inner iframe {
+      height: 300px;
+      width: 60%;
+    }
 }
 
-@media (max-height: 500px) {
-  .video {
+@media (max-width: 767px) {
+  .container3 .carousel {
+    background-color: #E5E4E2;
+    width: 80vw;
+    margin-left: 10%;
+    padding-bottom: 3.5em;
+    text-align: center;
+  }
+
+  .container3 .carousel .carousel-inner iframe {
     height: 250px;
+    width: 100%;
   }
 }
 
@@ -151,6 +173,8 @@ body {
 .brand2 {
   display: none;
 }
+
+
 
 /***************************************************/
 /* Container 1 - navbar */
@@ -339,14 +363,14 @@ nav .navbar-nav .nav-item .nav-link:hover {
       color: white;
     }
 
-    .carousel .carousel-inner .prev {
+    .container3 .carousel .carousel-inner .prev {
       visibility: visible;
       height: 40%;
       width: 35%;
       margin-top: 70px;
     }
 
-    .carousel .carousel-inner .next {
+    .container3 .carousel .carousel-inner .next {
       visibility: visible;
       height: 40%;
       width: 35%;
@@ -358,7 +382,7 @@ nav .navbar-nav .nav-item .nav-link:hover {
 /* copyright - the footer of the page */
 .copyright {
   bottom: 0;
-  padding-bottom: 17.5em;
+  padding-bottom: 22em;
   color: white;
   text-align: center;
   position: relative;
@@ -375,13 +399,38 @@ nav .navbar-nav .nav-item .nav-link:hover {
   bottom: 0;
   font-size: 80%;
   color: grey;
+  padding-bottom: 5em;
+}
+
+.cr {
+  font-size: 70%;
 }
 
 .footer-icons {
   text-align: center;
   width: 100%;
   position: absolute;
-  bottom: 4em;
+  bottom: 40%;
+}
+
+.footer-icon {
+  transition-property: all;
+  transition-duration: 0.2s;
+  transition-delay: 0;
+  transition-timing-function: linear;
+  color: #808080;
+  border-color: #343434;
+  border-style: ridge;
+  border: 1;
+  border-radius: 50%;
+  font-size: 1.1em;
+  padding: 0.65em 0.75em 0.65em 0.75em;
+}
+
+.footer-icon:hover {
+  color: #D2B48C;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  border-color: #D2B48C;
 }
 
 .space-footer {
@@ -392,12 +441,12 @@ nav .navbar-nav .nav-item .nav-link:hover {
   position: absolute;
   text-align: center;
   width: 100%;
-  bottom: 50%;
+  bottom: 65%;
 }
 
 .footer-logo {
-  height: 4em;
-  width: 7em;
+  height: 2.5em;
+  width: 5em;
 }
 
 /************************************************************/
@@ -407,7 +456,7 @@ nav .navbar-nav .nav-item .nav-link:hover {
    .container2 {
      height: 95vh;
      width: 100vw;
-     /*background-image: url("/home/noam/Website Hod/Photos/Photos/bg-phone6.jpg");
+     /*background-image: url("bg-phone6.jpg");
      background-size: cover;
      background-position: center;
      background-repeat: no-repeat;*/
@@ -498,19 +547,19 @@ nav .navbar-nav .nav-item .nav-link:hover {
 
 /*apply below 500px - mobile*/
 @media (max-width: 500px) {
-  .logo {
-    position: absolute;
-    height: auto;
-    width: 50%;
-    top: 7em;
-    left: 25%;
-  }
- .brand1 {
-   display: none;
- }
-  .brand2 {
-    display: grid;
-  }
+    .logo {
+      position: absolute;
+      height: auto;
+      width: 50%;
+      top: 7em;
+      left: 25%;
+    }
+   .brand1 {
+     display: none;
+   }
+    .brand2 {
+      display: grid;
+    }
 }
 
 .dropdown {
@@ -667,7 +716,7 @@ nav .navbar-nav .nav-item .nav-link:hover {
     position: absolute;
     height: auto;
     width: 50%;
-    top: 5em;
+    top: 4em;
     left: 25%;
   }
 }
