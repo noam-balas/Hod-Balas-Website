@@ -238,15 +238,6 @@ body {
       text-align: right;
       padding-right: 6%;
     }
-      
-      .navbar-preheader .navbar-toggle:hover .icon-bar {
-        background-color: #E7E1E0;
-    }
-
-    /* add a hover color the toggler-icon button */
-    .toggler:hover .toggler-icon {
-      background-color: #E7E1E0 !important;
-    }
 }
 
 @media (max-width: 600px) {
@@ -448,9 +439,9 @@ nav .navbar-nav .nav-item .nav-link:hover {
 }
 
 /* add a hover color the toggler-icon button */
-.toggler:hover .toggler-icon {
+/*.toggler:hover .toggler-icon {
   background-color: #EDE0AA;
-}
+}*/
 
 /* apply below 1024px - tablet and mobile */
 @media (max-height: 1024px) and (max-width: 1024px) {
