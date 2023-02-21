@@ -1,9 +1,9 @@
 html {
-    background: #E5E4E2;
+    background: #E7E1E0 !important;
 }
 
 body {
-  background: #E5E4E2;
+  background: #E7E1E0 !important;
   overflow-x: hidden;
 }
 
@@ -16,7 +16,7 @@ body {
   background-position: center;
   background-repeat: no-repeat; */
   z-index: 0;
-  background-color: #E5E4E2;
+  background-color: #E7E1E0;
   overflow: hidden;
 }
 
@@ -26,6 +26,7 @@ body {
   height: 100vh;
   width: 100vw;
   z-index: 0;
+  background-color: #E7E1E0;
 }
 
 .bg1 {
@@ -63,12 +64,12 @@ body {
   height: 15px;
   width: 15px;
   border-radius: 50%;
-  background-color: white;
+  background-color: transparent;
   margin-left: 5px;
 }
 
 .top-carousel ol.carousel-indicators .active {
-  background-color: white !important;
+  background-color: transparent !important;
 }
 
 .top-carousel .carousel-inner .carousel-item img {
@@ -90,9 +91,43 @@ body {
 }
 
 
+.about-me {
+  background-color: #E7E1E0;
+  text-align: right;
+  margin-top: 10%;
+  margin-right: 25%;
+  margin-bottom: 10%;
+}
+
+.header1 {
+  font-family: 'Bellefair', serif;
+  text-decoration: underline;
+  color: #0E050F;
+}
+
+.text-about {
+  font-family: 'Open Sans', sans-serif;
+  color: #0E050F;
+  font-size: 1.25em;
+}
+
+.sep-container {
+  width: 100%;
+  text-align: center;
+}
+
+.seperator {
+  background-color: #E7E1E0;
+  color: #333F63;
+  border-color: #9388A2;
+  border-top: dotted 1.25em;
+  margin-left: 45%;
+  width: 12%;
+}
+
 .container3 {
   position: relative;
-  background-color: #E5E4E2;
+  background-color: #E7E1E0;
   width: 100vw;
   height: auto;
   padding-top: 10em;
@@ -103,7 +138,7 @@ body {
 
 
 .container3 .carousel {
-  background-color: #E5E4E2;
+  background-color: #E7E1E0;
   width: 80vw;
   margin-left: 10%;
   padding-bottom: 3.5em;
@@ -271,7 +306,9 @@ body {
   z-index: 2;
   opacity: 0.8;
   height: auto;
-  background-color: black;
+  /*background-color: #170B3B;*/
+  background-image: linear-gradient(45deg,#0E050F, #301934 , #341948 , #9388A2);
+  background-size: 100%;
 }
 
 .navbar:hover {
@@ -288,34 +325,99 @@ body {
 /* set color for nav-items and set the size of brand */
 nav .navbar-nav .nav-item .nav-link{
   font-size: 130%;
-  color: white !important;
-
+  /*color: white !important;*/
+  color: #E7E1E0 !important;
   /*transition-property: color;*/
 
-  border-style: groove;
+  border-style: solid;
+  border-width: medium;
   /*transition-property: border-color;*/
   border-top: 0;
   border-left: 0;
   border-right: 0;
   border-bottom: 10;
-  border-width: medium;
   border-color: transparent;
   transition-duration: 0.5s;
   font-family: 'Open Sans', sans-serif;
+
+  /* Fallback: Set a background color. */
+    /*background-color: transparent;*/
+
+    /* Create the gradient. */
+     /*background-image: linear-gradient(
+       45deg,
+     white 16.666%,
+     #F8EA8C 16.666%,
+     #E16541 33.333%,
+     #F18F43 33.333%,
+     #F18F43 50%,
+     #8B9862 50%,
+     #8B9862 66.666%,
+     #476098 66.666%,
+     #F3CC3C 83.333%,
+     #E1C340 83.333%);*/
+
+    /* Set the background size and repeat properties. */
+    /*background-size: 100%;
+    background-repeat: repeat;*/
+
+
+
+      /* Use the text as a mask for the background. */
+      /* This will show the gradient as a text color rather than element bg. */
+    /*background-clip: text;*/
+
+    /* Animate the text when loading the element. */
+      /* This animates it on page load and when hovering out. */
+      /*animation: rainbow-text-simple-animation-rev 0.5s ease forwards;*/
 }
 
 nav .navbar-nav .nav-item .nav-link:hover {
-  color: #D2B48C !important;
-  border-color: #D2B48C;
+  /*color: #D2B48C !important;*/
+  color: #EDE0AA !important;
+  border-color: #EDE0AA;
+   /*animation: rainbow-text-simple-animation 0.5s ease-in forwards;*/
 }
 
+/* Move the background and make it smaller. */
+/* Animation shown when entering the page and after the hover animation. */
+/*@keyframes rainbow-text-simple-animation-rev {
+    0% {
+        background-size: 650%;
+    }
+    40% {
+        background-size: 650%;
+    }
+    100% {
+        background-size: 100%;
+    }
+}*/
+
+/* Move the background and make it larger. */
+/* Animation shown when hovering over the text. */
+/*@keyframes rainbow-text-simple-animation {
+    0% {
+        background-size: 100%;
+    }
+    80% {
+        background-size: 650%;
+    }
+    100% {
+        background-size: 650%;
+    }
+}*/
+
+
+
+
+
 .navbar-preheader .navbar-toggle:hover .icon-bar {
-    background-color: #D2B48C;
+    background-color: #E7E1E0;
 }
 
 /* add a hover color the toggler-icon button */
 .toggler:hover .toggler-icon {
-  background-color: #D2B48C;
+  background-color: #EDE0AA;
 }
 
 /* apply below 1024px - tablet and mobile */
@@ -377,11 +479,11 @@ nav .navbar-nav .nav-item .nav-link:hover {
   transition-delay: 0;
   transition-timing-function: linear;
   font-size: 170%;
-  color: #D2B48C;
+  color: #E7E1E0;
 }
 
 .icon:hover {
-  color: #EADDCA;
+  color: #EDE0AA;
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 }
 
@@ -455,13 +557,14 @@ nav .navbar-nav .nav-item .nav-link:hover {
 .copyright {
   bottom: 0;
   padding-bottom: 20em;
-  color: white;
+  /*color: white;*/
   text-align: center;
   position: relative;
   font-size: 1em;
   width: 100%;
   z-index: 1;
-  background-color: #0f0f0f;
+  background-image: linear-gradient(45deg, #0E050F, #301934, #341948, #2B293C);
+  background-size: 100%;
 }
 
 .rights {
@@ -470,7 +573,7 @@ nav .navbar-nav .nav-item .nav-link:hover {
   position: absolute;
   bottom: 0;
   font-size: 80%;
-  color: grey;
+  color: #9388A2;
   padding-bottom: 4em;
 }
 
@@ -490,8 +593,8 @@ nav .navbar-nav .nav-item .nav-link:hover {
   transition-duration: 0.2s;
   transition-delay: 0;
   transition-timing-function: linear;
-  color: #808080;
-  border-color: #343434;
+  color: #D7D4DD;
+  border-color: #9388A2;
   border-style: solid;
   border-width: 1.75px;
   border: 1;
@@ -500,8 +603,9 @@ nav .navbar-nav .nav-item .nav-link:hover {
   padding: 0.65em 0.75em 0.65em 0.75em;
 }
 
+
 .footer-icon:hover {
-  color: #D2B48C;
+  color: #EDE0AA;
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   border-color: #D2B48C;
 }
