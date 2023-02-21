@@ -129,8 +129,8 @@ body {
   background-color: #E7E1E0;
   width: 100vw;
   height: auto;
-  padding-top: 8em;
-  padding-bottom: 10em;
+  padding-top: 6em;
+  padding-bottom: 6em;
   overflow: hidden;
   text-align: center;
 }
@@ -218,8 +218,8 @@ body {
       .about-me {
           background-color: #E7E1E0;
           text-align: center;
-          margin-top: 10em;
-          margin-bottom: 8em;
+          margin-top: 6em;
+          margin-bottom: 6em;
           width: 100%;
     }
 
