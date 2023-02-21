@@ -129,7 +129,7 @@ body {
   background-color: #E7E1E0;
   width: 100vw;
   height: auto;
-  padding-top: 10em;
+  padding-top: 8em;
   padding-bottom: 10em;
   overflow: hidden;
   text-align: center;
@@ -215,12 +215,12 @@ body {
       width: 10% !important;
     }
 
-    .about-me {
-      background-color: #E7E1E0;
-      text-align: center;
-      margin-top: 25%;
-      margin-bottom: 25%;
-      width: 100%;
+      .about-me {
+          background-color: #E7E1E0;
+          text-align: center;
+          margin-top: 10em;
+          margin-bottom: 8em;
+          width: 100%;
     }
 
     .header1 {
