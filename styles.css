@@ -228,7 +228,7 @@ body {
       text-decoration: underline;
       color: #0E050F;
       text-align: right;
-      padding-right: 10%;
+      padding-right: 6%;
     }
 
     .text-about {
@@ -236,16 +236,7 @@ body {
       color: #0E050F;
       font-size: 1.25em;
       text-align: right;
-      padding-right: 10%;
-    }
-      
-      .seperator {
-      background-color: #E7E1E0;
-      color: #333F63;
-      text-align: center;
-      width: 100%;
-      font-size: 100%;
-      opacity: 0.5;
+      padding-right: 6%;
     }
 }
 
