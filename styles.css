@@ -475,7 +475,7 @@ nav .navbar-nav .nav-item .nav-link:hover {
 }
 
 .cr {
-  font-size: 70%;
+  font-size: 1em !important;
 }
 
 .footer-icons {
