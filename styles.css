@@ -93,36 +93,35 @@ body {
 
 .about-me {
   background-color: #E7E1E0;
-  text-align: right;
+  text-align: center;
   margin-top: 10%;
-  margin-right: 25%;
   margin-bottom: 10%;
+  width: 100%;
 }
 
 .header1 {
   font-family: 'Bellefair', serif;
   text-decoration: underline;
   color: #0E050F;
+  text-align: right;
+  padding-right: 26%;
 }
 
 .text-about {
   font-family: 'Open Sans', sans-serif;
   color: #0E050F;
   font-size: 1.25em;
-}
-
-.sep-container {
-  width: 100%;
-  text-align: center;
+  text-align: right;
+  padding-right: 26%;
 }
 
 .seperator {
   background-color: #E7E1E0;
   color: #333F63;
-  border-color: #9388A2;
-  border-top: dotted 1.25em;
-  margin-left: 45%;
-  width: 12%;
+  text-align: center;
+  width: 100%;
+  font-size: 100%;
+  opacity: 0.5;
 }
 
 .container3 {
@@ -214,6 +213,30 @@ body {
       text-decoration: none;
       height: 45%;
       width: 10% !important;
+    }
+
+    .about-me {
+      background-color: #E7E1E0;
+      text-align: center;
+      margin-top: 10%;
+      margin-bottom: 10%;
+      width: 100%;
+    }
+
+    .header1 {
+      font-family: 'Bellefair', serif;
+      text-decoration: underline;
+      color: #0E050F;
+      text-align: right;
+      padding-right: 10%;
+    }
+
+    .text-about {
+      font-family: 'Open Sans', sans-serif;
+      color: #0E050F;
+      font-size: 1.25em;
+      text-align: right;
+      padding-right: 10%;
     }
 }
 
