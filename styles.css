@@ -238,6 +238,15 @@ body {
       text-align: right;
       padding-right: 10%;
     }
+      
+      .seperator {
+      background-color: #E7E1E0;
+      color: #333F63;
+      text-align: center;
+      width: 100%;
+      font-size: 100%;
+      opacity: 0.5;
+    }
 }
 
 @media (max-width: 600px) {
